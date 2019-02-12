@@ -1,0 +1,8 @@
+# отключаем magic_quotes_gpc
+php_flag magic_quotes_gpc On
+php_flag magic_quotes_runtime Off
+php_value display_errors On
+php_value max_execution_time 6000
+php_value memory_limit 500M
+php_value post_max_size 1
+php_value upload_max_filesize 1
